@@ -10,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "mysql": "^2.17.1"
+  },
+  "dependencies": {
+    "ews-javascript-api": "^0.10.0",
+    "node-ews": "^3.4.2"
   }
 }
