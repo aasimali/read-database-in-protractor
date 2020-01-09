@@ -49,8 +49,6 @@ describe('Read data from MySQL', function () {
 
 //__________________________________________________________________
 
-//import { isMainThread } from "worker_threads"
-
 // describe('Email Testing', function () {
 
 // 	it('should login with a registration code sent to an email', function () {
@@ -80,7 +78,7 @@ describe('Read data from MySQL', function () {
 
 	// var ibmdb = require('ibm_db');
 
-	// ibmdb.open("DATABASE=<BLUDB;HOSTNAME=dashdb-txn-sbox-yp-lon02-01.services.eu-gb.bluemix.net;UID=hxq19960;PWD=ld9vr2tptpb2m-d5;PORT=50000;PROTOCOL=TCPIP", function (err,conn) {
+	// ibmdb.open("DATABASE=<BLUDB;HOSTNAME=dashdb-txn-sbox-yp-lon02-01.services.eu-gb.bluemix.net;UID=hxq19960;PWD=#####-d5;PORT=50000;PROTOCOL=TCPIP", function (err,conn) {
 	//   console.log("1")
 	// 	if (err) return console.log(err);
 
@@ -94,7 +92,7 @@ describe('Read data from MySQL', function () {
 	//   });
 // 	// });
 // 	var ibmdb = require("ibm_db"),
-//     connString = "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-lon02-01.services.eu-gb.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=hxq19960;PWD=ld9vr2tptpb2m-d5;";
+//     connString = "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-lon02-01.services.eu-gb.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=hxq19960;PWD=#####-d5;";
 //  console.log("1")
 // try {
 //       var option = { connectTimeout : 80, systemNaming : true };// Connection Timeout after 40 seconds.
@@ -118,7 +116,7 @@ describe('Read data from MySQL', function () {
 // // exchange server connection info
 // const ewsConfig = {
 //   username: 'aasim_anwar@outlook.com',
-//   password: 'Aasim_ali9222',
+//   password: '**********',
 //   host: 'https://outlook.office365.com',
 //   auth: 'basic'
 // };
