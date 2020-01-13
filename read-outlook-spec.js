@@ -19,7 +19,7 @@ describe("Read OTP", function () {
             await (item.Load(new ews.PropertySet(ews.BasePropertySet.FirstClassProperties, [ews.EmailMessageSchema.Body])))
             console.log(item.Body.Text.replace(/<\/?[^>]+(>|$)/g, ""));
 
-            //Store this item.Body.Text and story it in a variable and write a simple logic to get the otp and use it.
+            //Store this item.Body.Text in a variable and write a simple logic to get the otp and use it.
         }
 
     }) // end of it
